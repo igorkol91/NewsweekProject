@@ -4,7 +4,7 @@
 
 > This project shows different ways that can help us make our website reponsive to all the screen sizes by using Bootstrap.
 
-![Screenshot_20210405_170426](https://user-images.githubusercontent.com/73760803/113599731-4fbfad80-963f-11eb-95c4-7f6f5c31588f.png)
+![Screenshot](https://user-images.githubusercontent.com/73760803/113599731-4fbfad80-963f-11eb-95c4-7f6f5c31588f.png)
 
 Finished the first milestone for the NewsweekProject Milestone1
 
@@ -19,25 +19,20 @@ Finished the first milestone for the NewsweekProject Milestone1
 
 ## Live Demo
 
-https://igorkol91.github.io/NewsweekProject/
+[Live Demo Link](https://igorkol91.github.io/NewsweekProject/)
+
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+1. Clone the project 
+  `$ git clone https://github.com/igorkol91/NewsweekProject/`
+2. Then open index.html in your browser
+
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+Just ensure you have one or more web browsers
 
 ## Authors
 
@@ -49,8 +44,19 @@ To get a local copy up and running follow these simple example steps.
 
 :bust_in_silhouette: **Author2**
 
-- GitHub: 
-- Twitter: 
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ahzia](https://github.com/ahzia)
+- Twitter: [@ZiaYousofi](https://twitter.com/ZiaYousofi)
+- LinkedIn: [Ahmad zia Yousufi](https://https://www.linkedin.com/in/ah-ziayosfi)
 
 ## :handshake: Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to contribute 
+Feel free to check the [issues page](https://github.com/igorkol91/NewsweekProject/issues/1).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+
