@@ -4,7 +4,7 @@
 
 > This project shows different ways that can help us make our website reponsive to all the screen sizes by using Bootstrap.
 
-![Screenshot](./app_screenshot.PNG)
+![Screenshot](./app_screenshot.png)
 
 Finished the first milestone for the NewsweekProject Milestone1
 
