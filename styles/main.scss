@@ -22,3 +22,65 @@
         width: 20px;
     }
 }
+
+@media only screen and (max-width: 700px) {
+    .top-part-nav {
+        height: 40px;
+    }
+    .logo {
+        height: 30px;
+    }
+    .right-header {
+        height: 40px;
+    }
+    .coece {
+        background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .right-header button {
+        display: inline-flex;
+        height: 30px;
+        font-size: 15px;
+        align-items: center;
+    }
+    .burger-menu-button {
+        height: 20px;
+        padding-left: 8px;
+    }
+    .yellow-header-button {
+        padding-left: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .top-part-nav {
+        height: 40px;
+    }
+    .logo {
+        height: 30px;
+    }
+    .right-header {
+        height: 40px;
+    }
+    .coece {
+        background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .right-header button {
+        display: inline-flex;
+        height: 30px;
+        font-size: 15px;
+        align-items: center;
+    }
+    .burger-menu-button {
+        height: 20px;
+        padding-left: 8px;
+    }
+    .yellow-header-button {
+        padding-left: 8px;
+    }
+}
