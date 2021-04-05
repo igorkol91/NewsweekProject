@@ -12,6 +12,10 @@
     /* stylelint-enable */
 }
 
+.top-part-nav{
+    background-color:rgb(247, 34, 16);
+}
+
 .bottom-upper-list-last-element {
     input {
         height: 30px;
@@ -23,64 +27,82 @@
     }
 }
 
-@media only screen and (max-width: 700px) {
-    .top-part-nav {
-        height: 40px;
-    }
-    .logo {
-        height: 30px;
-    }
-    .right-header {
-        height: 40px;
-    }
-    .coece {
-        background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-    }
-    .right-header button {
-        display: inline-flex;
-        height: 30px;
-        font-size: 15px;
-        align-items: center;
-    }
-    .burger-menu-button {
-        height: 20px;
-        padding-left: 8px;
-    }
-    .yellow-header-button {
-        padding-left: 8px;
+.top-part-nav {
+    height: 40px;
+}
+.logo {
+    height: 30px;
+}
+.right-header {
+    height: 40px;
+}
+.loginIcon {
+    background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-right:5px;
+}
+.right-header button {
+    display: inline-flex;
+    height: 30px;
+    font-size: 15px;
+    align-items: center;
+}
+.burger-menu-button {
+    height: 20px;
+    padding-left: 8px;
+}
+.yellow-header-button {
+    padding-left: 8px;
+}
+.subscribe{
+    font-weight: bold;
+    font-size:13px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#ffe400;
+    border-radius: 24px;
+}
+
+/* Small Screens*/
+
+@media only screen and (min-width: 576px) {
+    .login{
+        padding-right:10px;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .top-part-nav {
-        height: 40px;
+/* Meduium Screens*/
+
+@media only screen and (min-width: 768px) {
+    .top-part-nav{
+        height: 80px ;
+        
     }
-    .logo {
-        height: 30px;
+ 
+    .logo{
+        height: 60px;
+        margin-bottom:30px;
     }
-    .right-header {
-        height: 40px;
+    .bottom-header{
+        font-size: 12px;
     }
-    .coece {
-        background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
+    .bottom-upper-list li a{
+        color:black;
     }
-    .right-header button {
-        display: inline-flex;
-        height: 30px;
-        font-size: 15px;
-        align-items: center;
+    .bottom-upper-list li a:hover{
+        color:rgb(247, 34, 16);
     }
-    .burger-menu-button {
-        height: 20px;
-        padding-left: 8px;
+    .header-bottom-links li a{
+        color: #555;
+        text-decoration: none;
+        font-weight: bold;
     }
-    .yellow-header-button {
-        padding-left: 8px;
+    .header-bottom-links li{
+        font-weight: bold;
+    }
+    .header-bottom-links li a:hover{
+        color:rgb(247, 34, 16);
     }
 }
