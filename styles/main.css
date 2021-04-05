@@ -128,7 +128,7 @@ footer a:hover {
   margin-top: 25px;
 }
 
- /* Small Screens*/
+/* Small Screens */
 
 @media only screen and (min-width: 576px) {
   .login {
@@ -136,7 +136,7 @@ footer a:hover {
   }
 }
 
- /* Meduium Screens*/
+/* Meduium Screens */
 
 @media only screen and (min-width: 768px) {
   .top-part-nav {
@@ -173,8 +173,6 @@ footer a:hover {
   .header-bottom-links li a:hover {
     color: #f72210;
   }
-
 }
-
- /*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
  
