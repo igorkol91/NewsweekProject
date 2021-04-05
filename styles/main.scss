@@ -92,6 +92,7 @@
 
 footer {
   margin-top: 400px;
+
   li {
     margin-left: 15px;
   }
@@ -100,7 +101,7 @@ footer {
     text-decoration: none;
     color: grey;
   }
-  
+
   a:hover {
     color: black;
   }
@@ -110,7 +111,7 @@ footer {
   margin-top: 25px;
 }
 
- /* Small Screens*/
+ /*Small Screens*/
 
 @media only screen and (min-width: 576px) {
   .login {
@@ -118,7 +119,7 @@ footer {
   }
 }
 
- /* Meduium Screens*/
+ /*Meduium Screens*/
 
 @media only screen and (min-width: 768px) {
   .top-part-nav {
