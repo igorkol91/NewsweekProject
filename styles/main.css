@@ -56,6 +56,31 @@
           align-items: center;
 }
 
+.header-input {
+  background: transparent;
+  border: none;
+}
+
+.header-input::-webkit-input-placeholder {
+  color: grey;
+  font-weight: bold;
+}
+
+.header-input:-ms-input-placeholder {
+  color: grey;
+  font-weight: bold;
+}
+
+.header-input::-ms-input-placeholder {
+  color: grey;
+  font-weight: bold;
+}
+
+.header-input::placeholder {
+  color: grey;
+  font-weight: bold;
+}
+
 .burger-menu-button {
   height: 20px;
   padding-left: 8px;
@@ -72,6 +97,37 @@
   padding-right: 10px;
   background-color: #ffe400;
   border-radius: 24px;
+}
+
+.top-right-footer-div i {
+  height: 30px;
+  width: 30px;
+}
+
+.top-left-footer-div p {
+  color: #555;
+  font-size: 13px;
+}
+
+footer {
+  margin-top: 400px;
+}
+
+footer li {
+  margin-left: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.bottom-footer-div {
+  margin-top: 25px;
 }
 
 /* Small Screens*/
