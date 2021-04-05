@@ -22,6 +22,7 @@
     height: 30px;
     width: 70px;
   }
+
   img {
     height: 20px;
     width: 20px;
@@ -94,10 +95,12 @@ footer {
   li {
     margin-left: 15px;
   }
+
   a {
     text-decoration: none;
     color: grey;
   }
+  
   a:hover {
     color: black;
   }
@@ -107,8 +110,7 @@ footer {
   margin-top: 25px;
 }
 
-
-/* Small Screens*/
+ /* Small Screens*/
 
 @media only screen and (min-width: 576px) {
   .login {
@@ -116,34 +118,40 @@ footer {
   }
 }
 
-
-/* Meduium Screens*/
+ /* Meduium Screens*/
 
 @media only screen and (min-width: 768px) {
   .top-part-nav {
     height: 80px;
   }
+
   .logo {
     height: 60px;
     margin-bottom: 30px;
   }
+
   .bottom-header {
     font-size: 12px;
   }
+
   .bottom-upper-list li a {
     color: black;
   }
-  .bottom-upper-list li a:hover {
-    color: rgb(247, 34, 16);
-  }
+
   .header-bottom-links li a {
     color: #555;
     text-decoration: none;
     font-weight: bold;
   }
+
+  .bottom-upper-list li a:hover {
+    color: rgb(247, 34, 16);
+  }
+
   .header-bottom-links li {
     font-weight: bold;
   }
+
   .header-bottom-links li a:hover {
     color: rgb(247, 34, 16);
   }
