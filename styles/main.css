@@ -49,8 +49,8 @@
   height: 30px;
   font-size: 15px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header-input {
@@ -63,12 +63,13 @@
   font-weight: bold;
 }
 
-.header-input:-ms-input-placeholder {
+
+.header-input::-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
 
-.header-input::-ms-input-placeholder {
+.header-input:-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
@@ -137,16 +138,20 @@ footer a:hover {
   .top-part-nav {
     height: 80px;
   }
+
   .logo {
     height: 60px;
     margin-bottom: 30px;
   }
+
   .bottom-header {
     font-size: 12px;
   }
+
   .bottom-upper-list li a {
     color: black;
   }
+
   .header-bottom-links li a {
     color: #555;
     text-decoration: none;
@@ -155,9 +160,11 @@ footer a:hover {
   .bottom-upper-list li a:hover {
     color: #f72210;
   }
+
   .header-bottom-links li {
     font-weight: bold;
   }
+
   .header-bottom-links li a:hover {
     color: #f72210;
   }
