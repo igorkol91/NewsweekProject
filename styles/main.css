@@ -288,5 +288,14 @@ footer a:hover {
   .header-bottom-links li a:hover {
     color: #f72210;
   }
+  .opinion-div p {
+    font-size: 11px;
+  }
+  .free-signup {
+    width: 95%;
+  }
+  .free-signup .button-signup {
+    margin-left: 15px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
