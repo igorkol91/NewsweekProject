@@ -111,13 +111,13 @@ footer {
   margin-top: 25px;
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 768px) {
   .login {
     padding-right: 10px;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .top-part-nav {
     height: 80px;
   }
