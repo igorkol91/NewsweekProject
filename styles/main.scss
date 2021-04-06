@@ -116,32 +116,83 @@ footer {
   border:1px solid #e5e5e5;
   width:320px;
   margin:auto;
+  h6{
+    margin-left:8px;
+    font-weight: bold;
+  }
+  
+  input{
+
+    width:90%;
+    margin-top:10px;
+    margin-left:15px;
+  }
+  .button-signup{
+    background-color: rgb(247, 34, 16);
+    margin-bottom:10px;
+    width:90%;
+    margin: 10px auto;
+    color:white;
+    font-weight: 600;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size:17px;
+    cursor: pointer;
+  }
 }
 
 .signup-top{
   width:100%;
-
+  margin-top:10px;
+  margin-left:10px;
+  display: flex;
   img{
     width:40px;
     height:40px;
     margin-top: 5px;
     margin-left:5px;
   }
+  
 }
 
-.signup-top h6{
-  margin-left:8px;
-  font-weight: bold;
+.section-header{
+  color:rgba(3, 3, 3, 0.4);
 }
 
-.free-signup input{
-  width:95%;
-  margin-top:10px;
-  margin-left:5px;
+.section-title-a{
+  text-decoration: none;
+  color:black;
 }
 
+.section-title-a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color:black;
+  text-decoration-color: rgb(247, 34, 16);
+}
 
+.section-title-a2{
+  text-decoration: none;
+  color:rgba(85, 85, 85, 0.651);
+  
+}
 
+.section-title-a2:hover{
+  color:rgba(85, 85, 85, 0.651);;
+}
+
+.vs{
+  background-color:black;
+  color:white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align:center;
+  margin:0 auto;
+  position: relative;
+  top:15px;
+}
 
 @media only screen and (min-width: 768px) {
   .login {

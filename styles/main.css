@@ -134,8 +134,38 @@ footer a:hover {
   margin: auto;
 }
 
+.free-signup h6 {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.free-signup input {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.free-signup .button-signup {
+  background-color: #f72210;
+  margin-bottom: 10px;
+  width: 90%;
+  margin: 10px auto;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
 .signup-top {
   width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .signup-top img {
@@ -145,15 +175,42 @@ footer a:hover {
   margin-left: 5px;
 }
 
-.signup-top h6 {
-  margin-left: 8px;
-  font-weight: bold;
+.section-header {
+  color: rgba(3, 3, 3, 0.4);
 }
 
-.free-signup input {
-  width: 95%;
-  margin-top: 10px;
-  margin-left: 5px;
+.section-title-a {
+  text-decoration: none;
+  color: black;
+}
+
+.section-title-a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+  -webkit-text-decoration-color: #f72210;
+          text-decoration-color: #f72210;
+}
+
+.section-title-a2 {
+  text-decoration: none;
+  color: rgba(85, 85, 85, 0.651);
+}
+
+.section-title-a2:hover {
+  color: rgba(85, 85, 85, 0.651);
+}
+
+.vs {
+  background-color: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
 }
 
 @media only screen and (min-width: 768px) {
