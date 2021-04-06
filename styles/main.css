@@ -177,6 +177,7 @@ footer a:hover {
 
 .section-header {
   color: rgba(3, 3, 3, 0.4);
+  margin-top: 60px;
 }
 
 .section-title-a {
@@ -197,8 +198,45 @@ footer a:hover {
   color: rgba(85, 85, 85, 0.651);
 }
 
+.section-title-a2 h4 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
 .section-title-a2:hover {
   color: rgba(85, 85, 85, 0.651);
+}
+
+.top-debate-div p {
+  font-size: 14px;
+  color: #555;
+}
+
+.top-debate-div p a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bolder;
+}
+
+.top-debate-div p a:hover {
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #f72210;
+          text-decoration-color: #f72210;
+}
+
+.opinion-div h5 {
+  font-size: 18px;
+}
+
+.opinion-div p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+.opinion-div div {
+  margin-left: 8px;
 }
 
 .vs {
