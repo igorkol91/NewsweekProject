@@ -111,6 +111,38 @@ footer {
   margin-top: 25px;
 }
 
+.free-signup{
+  background-color: #f4f5f6;
+  border:1px solid #e5e5e5;
+  width:320px;
+  margin:auto;
+}
+
+.signup-top{
+  width:100%;
+
+  img{
+    width:40px;
+    height:40px;
+    margin-top: 5px;
+    margin-left:5px;
+  }
+}
+
+.signup-top h6{
+  margin-left:8px;
+  font-weight: bold;
+}
+
+.free-signup input{
+  width:95%;
+  margin-top:10px;
+  margin-left:5px;
+}
+
+
+
+
 @media only screen and (min-width: 768px) {
   .login {
     padding-right: 10px;
