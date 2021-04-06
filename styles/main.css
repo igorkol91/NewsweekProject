@@ -64,12 +64,12 @@
   font-weight: bold;
 }
 
-.header-input:-ms-input-placeholder {
+.header-input::-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
 
-.header-input::-ms-input-placeholder {
+.header-input:-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
@@ -164,7 +164,6 @@ footer a:hover {
   margin-top: 10px;
   margin-left: 10px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -255,6 +254,7 @@ footer a:hover {
   .login {
     padding-right: 10px;
   }
+  
   .logo {
     height: 28px;
   }
@@ -264,40 +264,49 @@ footer a:hover {
   .top-part-nav {
     height: 80px;
   }
+
   .logo {
     height: 60px;
     margin-bottom: 30px;
   }
+
   .bottom-header {
     font-size: 12px;
   }
+
   .bottom-upper-list li a {
     color: black;
   }
+
   .header-bottom-links li a {
     color: #555;
     text-decoration: none;
     font-weight: bold;
   }
+
   .bottom-upper-list li a:hover {
     color: #f72210;
   }
+
   .header-bottom-links li {
     font-weight: bold;
   }
+
   .header-bottom-links li a:hover {
     color: #f72210;
   }
+
   .opinion-div p {
     font-size: 11px;
   }
+
   .free-signup {
     width: 95%;
   }
+
   .free-signup .button-signup {
     margin-left: 15px;
   }
 }
-
 
 /*# sourceMappingURL=main.css.map */

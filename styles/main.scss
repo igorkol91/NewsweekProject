@@ -22,6 +22,7 @@
     height: 30px;
     width: 70px;
   }
+
   img {
     height: 20px;
     width: 20px;
@@ -91,13 +92,16 @@
 
 footer {
   margin-top: 400px;
+
   li {
     margin-left: 15px;
   }
+
   a {
     text-decoration: none;
     color: grey;
   }
+
   a:hover {
     color: black;
   }
@@ -113,14 +117,17 @@ footer {
   width: 320px;
   margin: auto;
   h6 {
+
     margin-left: 8px;
     font-weight: bold;
   }
+
   input {
     width: 90%;
     margin-top: 10px;
     margin-left: 15px;
   }
+
   .button-signup {
     background-color: rgb(247, 34, 16);
     width: 90%;
@@ -141,6 +148,7 @@ footer {
   margin-left: 10px;
   display: flex;
   img {
+
     width: 40px;
     height: 40px;
     margin-top: 5px;
@@ -168,6 +176,7 @@ footer {
 .section-title-a2 {
   text-decoration: none;
   color: rgba(85, 85, 85, 0.651);
+
   h4 {
     font-size: 17px;
     font-weight: 700;
@@ -176,7 +185,6 @@ footer {
 
 .section-title-a2:hover {
   color: rgba(85, 85, 85, 0.651);
-  ;
 }
 
 .top-debate-div {
@@ -184,11 +192,13 @@ footer {
     font-size: 14px;
     color: #555;
   }
+
   p a {
     text-decoration: none;
     color: #555;
     font-weight: bolder;
   }
+
   p a:hover {
     color: black;
     text-decoration: underline;
@@ -200,11 +210,13 @@ footer {
   h5 {
     font-size: 18px;
   }
+
   p {
     font-size: 16px;
     font-weight: bold;
     color: #555;
   }
+
   div {
     margin-left: 8px;
   }
@@ -226,6 +238,7 @@ footer {
   .login {
     padding-right: 10px;
   }
+
   .logo {
     height: 28px;
   }
@@ -235,35 +248,44 @@ footer {
   .top-part-nav {
     height: 80px;
   }
+
   .logo {
     height: 60px;
     margin-bottom: 30px;
   }
+
   .bottom-header {
     font-size: 12px;
   }
+
   .bottom-upper-list li a {
     color: black;
   }
+
   .header-bottom-links li a {
     color: #555;
     text-decoration: none;
     font-weight: bold;
   }
+
   .bottom-upper-list li a:hover {
     color: rgb(247, 34, 16);
   }
+
   .header-bottom-links li {
     font-weight: bold;
   }
+
   .header-bottom-links li a:hover {
     color: rgb(247, 34, 16);
   }
+
   .opinion-div {
     p {
       font-size: 11px;
     }
   }
+
   .free-signup {
     width: 95%;
     .button-signup {
