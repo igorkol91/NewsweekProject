@@ -30,7 +30,7 @@
 }
 
 .logo {
-  height: 30px;
+  height: 23px;
 }
 
 .right-header {
@@ -114,6 +114,10 @@ footer {
 @media only screen and (min-width: 768px) {
   .login {
     padding-right: 10px;
+  }
+
+  .logo {
+    height: 28px;
   }
 }
 
