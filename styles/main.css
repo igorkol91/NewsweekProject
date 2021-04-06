@@ -64,8 +64,8 @@
 }
 
 .header-input::-ms-input-placeholder {
-    color: grey;
-    font-weight: bold;
+  color: grey;
+  font-weight: bold;
 }
 
 .header-input:-ms-input-placeholder {
