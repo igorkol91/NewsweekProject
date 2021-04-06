@@ -63,7 +63,6 @@
   font-weight: bold;
 }
 
-
 .header-input::-ms-input-placeholder {
   color: grey;
   font-weight: bold;
@@ -157,6 +156,7 @@ footer a:hover {
     text-decoration: none;
     font-weight: bold;
   }
+  
   .bottom-upper-list li a:hover {
     color: #f72210;
   }
