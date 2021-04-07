@@ -39,7 +39,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  margin-right: 5px;
 }
 
 .right-header button {
@@ -63,17 +62,17 @@
   font-weight: bold;
 }
 
+.header-input::placeholder {
+  color: grey;
+  font-weight: bold;
+}
+
 .header-input::-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
 
 .header-input:-ms-input-placeholder {
-  color: grey;
-  font-weight: bold;
-}
-
-.header-input::placeholder {
   color: grey;
   font-weight: bold;
 }
@@ -127,6 +126,135 @@ footer a:hover {
   margin-top: 25px;
 }
 
+.free-signup {
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+  width: 300px;
+}
+
+.free-signup h6 {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.free-signup input {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.free-signup .button-signup {
+  background-color: #f72210;
+  width: 90%;
+  margin: 10px auto;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.top-debate-div p a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bolder;
+}
+
+.free-signup .button-signup a {
+  text-decoration: none;
+}
+
+.signup-top {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: flex;
+}
+
+.signup-top img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.section-header {
+  color: rgba(3, 3, 3, 0.4);
+  margin-top: 60px;
+}
+
+.section-title-a {
+  text-decoration: none;
+  color: black;
+}
+
+.section-title-a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+  -webkit-text-decoration-color: #f72210;
+  text-decoration-color: #f72210;
+}
+
+.section-title-a2 {
+  text-decoration: none;
+  color: rgba(85, 85, 85, 0.651);
+}
+
+.section-title-a2 h4 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.section-title-a2:hover {
+  color: rgba(85, 85, 85, 0.651);
+}
+
+.top-debate-div p {
+  font-size: 14px;
+  color: #555;
+}
+
+.top-debate-div p a:hover {
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #f72210;
+  text-decoration-color: #f72210;
+}
+
+.opinion-div h5 {
+  font-size: 17px;
+  line-height: 19px;
+}
+
+.opinion-div p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  line-height: 18px;
+}
+
+.opinion-div div {
+  margin-left: 8px;
+}
+
+.opinion-div img {
+  height: 65px;
+  width: 65px;
+}
+
+.vs {
+  background-color: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+}
+
 @media only screen and (min-width: 768px) {
   .login {
     padding-right: 10px;
@@ -171,6 +299,14 @@ footer a:hover {
 
   .header-bottom-links li a:hover {
     color: #f72210;
+  }
+
+  .free-signup {
+    width: 95%;
+  }
+
+  .free-signup .button-signup {
+    margin-left: 15px;
   }
 }
 /*# sourceMappingURL=main.css.map */

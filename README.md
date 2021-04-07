@@ -6,7 +6,7 @@
 
 ![Screenshot](./app_screenshot.png)
 
-Finished the first milestone for the NewsweekProject Milestone1
+Finished the second milestone for the NewsweekProject Milestone1
 
 ## Built With
 
