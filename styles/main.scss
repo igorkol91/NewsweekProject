@@ -240,6 +240,20 @@ footer a:hover {
   margin: 0 auto;
 }
 
+.subiscribe-light{
+  height:500px;
+}
+
+.trump-img-top{
+position: relative;
+  left:50px;
+}
+.trump-img-buttom{
+  z-index:100;
+  position:relative;
+  top:20px;
+}
+
 @media only screen and (min-width: 768px) {
   .login {
     padding-right: 10px;
