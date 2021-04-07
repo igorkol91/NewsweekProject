@@ -1,5 +1,4 @@
 /* Initialisation  */
-
 *,
 *::after,
 *::before {
@@ -40,7 +39,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  margin-right: 5px;
 }
 
 .right-header button {
@@ -64,17 +62,17 @@
   font-weight: bold;
 }
 
-.header-input::-ms-input-placeholder {
-  color: grey;
-  font-weight: bold;
-}
-
 .header-input:-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
 
 .header-input::placeholder {
+  color: grey;
+  font-weight: bold;
+}
+
+.header-input::-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
@@ -131,8 +129,7 @@ footer a:hover {
 .free-signup {
   background-color: #f4f5f6;
   border: 1px solid #e5e5e5;
-  width: 320px;
-  margin: auto;
+  width: 300px;
 }
 
 .free-signup h6 {
@@ -150,13 +147,15 @@ footer a:hover {
   background-color: #f72210;
   width: 90%;
   margin: 10px auto;
-  color: white;
   font-weight: 600;
-  text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 17px;
   cursor: pointer;
+}
+
+.free-signup .button-signup a {
+  text-decoration: none;
 }
 
 .signup-top {
@@ -164,6 +163,7 @@ footer a:hover {
   margin-top: 10px;
   margin-left: 10px;
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -225,17 +225,24 @@ footer a:hover {
 }
 
 .opinion-div h5 {
-  font-size: 18px;
+  font-size: 17px;
+  line-height: 19px;
 }
 
 .opinion-div p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   color: #555;
+  line-height: 18px;
 }
 
 .opinion-div div {
   margin-left: 8px;
+}
+
+.opinion-div img {
+  height: 65px;
+  width: 65px;
 }
 
 .vs {
@@ -244,7 +251,6 @@ footer a:hover {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  text-align: center;
   margin: 0 auto;
   position: relative;
   top: 15px;
@@ -296,10 +302,6 @@ footer a:hover {
     color: #f72210;
   }
 
-  .opinion-div p {
-    font-size: 11px;
-  }
-
   .free-signup {
     width: 95%;
   }
@@ -308,5 +310,4 @@ footer a:hover {
     margin-left: 15px;
   }
 }
-
 /*# sourceMappingURL=main.css.map */
