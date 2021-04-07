@@ -256,10 +256,6 @@ footer a:hover {
   margin: 0 auto;
 }
 
-.subiscribe-light {
-  height: 500px;
-}
-
 .trump-img-top {
   position: relative;
   left: 100px;
@@ -310,6 +306,10 @@ footer a:hover {
   .logo {
     height: 28px;
   }
+  .md-div-center {
+    width: 50%;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -345,6 +345,9 @@ footer a:hover {
   }
   .free-signup .button-signup {
     margin-left: 15px;
+  }
+  .subiscribe-light {
+    height: 500px;
   }
 }
 /*# sourceMappingURL=main.css.map */
