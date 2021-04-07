@@ -62,17 +62,17 @@
   font-weight: bold;
 }
 
-.header-input:-ms-input-placeholder {
-  color: grey;
-  font-weight: bold;
-}
-
 .header-input::placeholder {
   color: grey;
   font-weight: bold;
 }
 
 .header-input::-ms-input-placeholder {
+  color: grey;
+  font-weight: bold;
+}
+
+.header-input:-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
@@ -163,7 +163,6 @@ footer a:hover {
   margin-top: 10px;
   margin-left: 10px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
