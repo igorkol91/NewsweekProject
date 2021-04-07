@@ -154,6 +154,12 @@ footer a:hover {
   cursor: pointer;
 }
 
+.top-debate-div p a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bolder;
+}
+
 .free-signup .button-signup a {
   text-decoration: none;
 }
@@ -208,12 +214,6 @@ footer a:hover {
 .top-debate-div p {
   font-size: 14px;
   color: #555;
-}
-
-.top-debate-div p a {
-  text-decoration: none;
-  color: #555;
-  font-weight: bolder;
 }
 
 .top-debate-div p a:hover {

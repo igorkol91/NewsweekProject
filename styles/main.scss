@@ -89,6 +89,21 @@
   font-size: 13px;
 }
 
+.button-signup {
+  background-color: rgb(247, 34, 16);
+  width: 90%;
+  margin: 10px auto;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+  }
+}
+
 footer {
   margin-top: 400px;
 
@@ -108,21 +123,6 @@ footer {
 
 .bottom-footer-div {
   margin-top: 25px;
-}
-
-.button-signup {
-  background-color: rgb(247, 34, 16);
-  width: 90%;
-  margin: 10px auto;
-  font-weight: 600;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 17px;
-  cursor: pointer;
-  
-  a {
-    text-decoration: none;
-  }
 }
 
 .top-debate-div {
