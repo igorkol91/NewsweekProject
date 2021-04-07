@@ -246,12 +246,41 @@ footer a:hover {
 
 .trump-img-top{
 position: relative;
-  left:50px;
+  left:100px;
+  height:350px;
+  width: auto;
 }
 .trump-img-buttom{
+  right:100px;
   z-index:100;
   position:relative;
   top:20px;
+  height:350px;
+  width: auto;
+}
+.button-signup2{
+  background-color: rgb(247, 34, 16);
+  width: 95%;
+  margin: 10px auto;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  cursor: pointer;
+  a {
+    text-decoration: none;
+    color:white;
+  }
+  a:hover{
+    color:white;
+  }
+}
+
+.newsletter-bg{
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
 }
 
 @media only screen and (min-width: 768px) {
