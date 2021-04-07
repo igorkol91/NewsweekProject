@@ -110,6 +110,25 @@ footer {
   margin-top: 25px;
 }
 
+.top-debate-div {
+  p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  p a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bolder;
+  }
+
+  p a:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(247, 34, 16);
+  }
+}
+
 .free-signup {
   background-color: #f4f5f6;
   border: 1px solid #e5e5e5;
@@ -136,7 +155,7 @@ footer {
     font-size: 17px;
     cursor: pointer;
 
-    a{
+    a {
       text-decoration: none;
     }
   }
@@ -187,25 +206,6 @@ footer {
   color: rgba(85, 85, 85, 0.651);
 }
 
-.top-debate-div {
-  p {
-    font-size: 14px;
-    color: #555;
-  }
-
-  p a {
-    text-decoration: none;
-    color: #555;
-    font-weight: bolder;
-  }
-
-  p a:hover {
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: rgb(247, 34, 16);
-  }
-}
-
 .opinion-div {
   h5 {
     font-size: 17px;
@@ -237,7 +237,7 @@ footer {
   border-radius: 50%;
   position: relative;
   top: 15px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
