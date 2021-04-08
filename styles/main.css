@@ -313,6 +313,10 @@ footer a:hover {
   margin: 0 auto;
 }
 
+.empty-div {
+  height: 200px;
+}
+
 @media only screen and (min-width: 768px) {
   .login {
     padding-right: 10px;
