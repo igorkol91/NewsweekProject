@@ -48,8 +48,8 @@
   height: 30px;
   font-size: 15px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header-input {
@@ -180,7 +180,7 @@ footer a:hover {
   color: black;
   text-decoration: underline;
   -webkit-text-decoration-color: #f72210;
-          text-decoration-color: #f72210;
+  text-decoration-color: #f72210;
 }
 
 .free-signup {
@@ -204,7 +204,6 @@ footer a:hover {
   width: 100%;
   margin-top: 10px;
   margin-left: 10px;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -312,7 +311,6 @@ footer a:hover {
 
 .subiscribe-light {
   height: 600px;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
