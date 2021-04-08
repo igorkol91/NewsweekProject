@@ -272,11 +272,17 @@ footer a:hover {
     display: flex;
     flex-direction: column;
 }
-.button-signup2{
-    margin:0 auto;
+
+.button-signup2 {
+    margin: 0 auto;
 }
-.empty-div{
-height:200px;
+
+.empty-div {
+    height: 200px;
+}
+
+.input-buttom {
+    width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -293,14 +299,13 @@ height:200px;
     .subiscribe-light {
         height: 550px;
     }
-    .button-signup2{
-        width:45%;
-        height:90%;
-        margin:0;
+    .button-signup2 {
+        width: 45%;
+        height: 90%;
+        margin: 0;
     }
-    .input-buttom{
-        width:45%;
-
+    .input-buttom {
+        width: 45%;
     }
 }
 
@@ -341,12 +346,11 @@ height:200px;
     .subiscribe-light {
         height: 500px;
     }
-    .button-signup2{
-        width:80%;
-        height:90%;
+    .button-signup2 {
+        width: 80%;
+        height: 90%;
     }
-    .input-buttom{
-        width:80%;
-
+    .input-buttom {
+        width: 80%;
     }
 }

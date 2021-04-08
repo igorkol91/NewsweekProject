@@ -317,6 +317,10 @@ footer a:hover {
   height: 200px;
 }
 
+.input-buttom {
+  width: 50%;
+}
+
 @media only screen and (min-width: 768px) {
   .login {
     padding-right: 10px;
