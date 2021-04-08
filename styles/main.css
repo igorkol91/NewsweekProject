@@ -48,8 +48,8 @@
   height: 30px;
   font-size: 15px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header-input {
@@ -180,7 +180,7 @@ footer a:hover {
   color: black;
   text-decoration: underline;
   -webkit-text-decoration-color: #f72210;
-          text-decoration-color: #f72210;
+  text-decoration-color: #f72210;
 }
 
 .free-signup {
@@ -205,7 +205,6 @@ footer a:hover {
   margin-top: 10px;
   margin-left: 10px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -231,7 +230,7 @@ footer a:hover {
   cursor: pointer;
   color: black;
   -webkit-text-decoration-color: #f72210;
-          text-decoration-color: #f72210;
+  text-decoration-color: #f72210;
 }
 
 .section-title-a2 {
@@ -314,12 +313,11 @@ footer a:hover {
 .subiscribe-light {
   height: 600px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .empty-div {
@@ -334,21 +332,26 @@ footer a:hover {
   .login {
     padding-right: 10px;
   }
+
   .logo {
     height: 28px;
   }
+
   .md-div-center {
     width: 50%;
     margin: auto;
   }
+
   .subiscribe-light {
     height: 550px;
   }
+
   .button-signup2 {
     width: 45%;
     height: 90%;
     margin: 0;
   }
+
   .input-buttom {
     width: 45%;
   }
@@ -358,43 +361,55 @@ footer a:hover {
   .top-part-nav {
     height: 80px;
   }
+
   .logo {
     height: 60px;
     margin-bottom: 30px;
   }
+
   .bottom-header {
     font-size: 12px;
   }
+
   .bottom-upper-list li a {
     color: black;
   }
+
   .header-bottom-links li a {
     color: #555;
     text-decoration: none;
     font-weight: bold;
   }
+
   .bottom-upper-list li a:hover {
     color: #f72210;
   }
+
   .header-bottom-links li {
     font-weight: bold;
   }
+
   .header-bottom-links li a:hover {
     color: #f72210;
   }
+
   .free-signup {
     width: 95%;
   }
+
   .free-signup .button-signup {
     margin-left: 15px;
   }
+
   .subiscribe-light {
     height: 500px;
   }
+
   .button-signup2 {
     width: 80%;
     height: 90%;
   }
+
   .input-buttom {
     width: 80%;
   }
