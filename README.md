@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Responsive Design Perma Blog
+# Responsive Design Newsweek Project
 
 > This project shows different ways that can help us make our website reponsive to all the screen sizes by using Bootstrap.
 
 ![Screenshot](./app_screenshot.png)
 
-Finished the second milestone for the NewsweekProject Milestone1
+This is our 3rd project in microverse where we designed a responsive clone from the Newsweek website.
 
 ## Built With
 
