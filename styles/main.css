@@ -1,355 +1,385 @@
 /* Initialisation  */
-
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    /* stylelint-disable */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    /* stylelint-enable */
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* stylelint-disable */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* stylelint-enable */
 }
 
 .top-part-nav {
-    background-color: #f72210;
-    height: 40px;
+  background-color: #f72210;
+  height: 40px;
 }
 
 .bottom-upper-list-last-element input {
-    height: 30px;
-    width: 70px;
+  height: 30px;
+  width: 70px;
 }
 
 .bottom-upper-list-last-element img {
-    height: 20px;
-    width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .logo {
-    height: 23px;
+  height: 23px;
 }
 
 .right-header {
-    height: 40px;
+  height: 40px;
 }
 
 .loginIcon {
-    background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+  background-image: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .right-header button {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    height: 30px;
-    font-size: 15px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 30px;
+  font-size: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-input {
-    background: transparent;
-    border: none;
+  background: transparent;
+  border: none;
 }
 
 .header-input::-webkit-input-placeholder {
-    color: grey;
-    font-weight: bold;
+  color: grey;
+  font-weight: bold;
 }
 
 .header-input:-ms-input-placeholder {
-    color: grey;
-    font-weight: bold;
+  color: grey;
+  font-weight: bold;
 }
 
 .header-input::-ms-input-placeholder {
-    color: grey;
-    font-weight: bold;
+  color: grey;
+  font-weight: bold;
 }
 
 .header-input::placeholder {
-    color: grey;
-    font-weight: bold;
+  color: grey;
+  font-weight: bold;
 }
 
 .burger-menu-button {
-    height: 20px;
-    padding-left: 8px;
+  height: 20px;
+  padding-left: 8px;
 }
 
 .yellow-header-button {
-    padding-left: 8px;
+  padding-left: 8px;
 }
 
 .subscribe {
-    font-weight: bold;
-    font-size: 13px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: #ffe400;
-    border-radius: 24px;
+  font-weight: bold;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffe400;
+  border-radius: 24px;
 }
 
 .top-right-footer-div i {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .top-left-footer-div p {
-    color: #555;
-    font-size: 13px;
+  color: #555;
+  font-size: 13px;
 }
 
 footer {
-    margin-top: 400px;
+  margin-top: 400px;
 }
 
 footer li {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 footer a {
-    text-decoration: none;
-    color: grey;
+  text-decoration: none;
+  color: grey;
 }
 
 .button-signup {
-    background-color: #f72210;
-    width: 90%;
-    margin: 10px auto;
-    font-weight: 600;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 17px;
-    cursor: pointer;
+  background-color: #f72210;
+  width: 90%;
+  margin: 10px auto;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 .button-signup a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer a:hover {
-    color: black;
+  color: black;
 }
 
 .bottom-footer-div {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .top-debate-div p {
-    font-size: 14px;
-    color: #555;
+  font-size: 14px;
+  color: #555;
 }
 
 .top-debate-div p a {
-    text-decoration: none;
-    color: #555;
-    font-weight: bolder;
+  text-decoration: none;
+  color: #555;
+  font-weight: bolder;
 }
 
 .top-debate-div p a:hover {
-    color: black;
-    text-decoration: underline;
-    -webkit-text-decoration-color: #f72210;
-    text-decoration-color: #f72210;
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #f72210;
+          text-decoration-color: #f72210;
 }
 
 .free-signup {
-    background-color: #f4f5f6;
-    border: 1px solid #e5e5e5;
-    width: 300px;
+  background-color: #f4f5f6;
+  border: 1px solid #e5e5e5;
+  width: 300px;
 }
 
 .free-signup h6 {
-    margin-left: 8px;
-    font-weight: bold;
+  margin-left: 8px;
+  font-weight: bold;
 }
 
 .free-signup input {
-    width: 90%;
-    margin-top: 10px;
-    margin-left: 15px;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 15px;
 }
 
 .signup-top {
-    width: 100%;
-    margin-top: 10px;
-    margin-left: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .signup-top img {
-    width: 40px;
-    height: 40px;
-    margin-top: 5px;
-    margin-left: 5px;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .section-header {
-    color: rgba(3, 3, 3, 0.4);
-    margin-top: 60px;
+  color: rgba(3, 3, 3, 0.4);
+  margin-top: 60px;
 }
 
 .section-title-a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .section-title-a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    color: black;
-    -webkit-text-decoration-color: #f72210;
-    text-decoration-color: #f72210;
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+  -webkit-text-decoration-color: #f72210;
+          text-decoration-color: #f72210;
 }
 
 .section-title-a2 {
-    text-decoration: none;
-    color: rgba(85, 85, 85, 0.651);
+  text-decoration: none;
+  color: rgba(85, 85, 85, 0.651);
 }
 
 .section-title-a2 h4 {
-    font-size: 17px;
-    font-weight: 700;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .section-title-a2:hover {
-    color: rgba(85, 85, 85, 0.651);
+  color: rgba(85, 85, 85, 0.651);
 }
 
 .opinion-div h5 {
-    font-size: 17px;
-    line-height: 19px;
+  font-size: 17px;
+  line-height: 19px;
 }
 
 .opinion-div p {
-    font-size: 14px;
-    font-weight: bold;
-    color: #555;
-    line-height: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  line-height: 18px;
 }
 
 .opinion-div div {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 .opinion-div img {
-    height: 65px;
-    width: 65px;
+  height: 65px;
+  width: 65px;
 }
 
 .vs {
-    background-color: black;
-    color: white;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    position: relative;
-    top: 15px;
-    margin: 0 auto;
+  background-color: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  margin: 0 auto;
 }
 
 .trump-img-top {
-    position: relative;
-    left: 100px;
-    height: 350px;
-    width: auto;
+  position: relative;
+  left: 100px;
+  height: 350px;
+  width: auto;
 }
 
 .trump-img-buttom {
-    right: 100px;
-    z-index: 100;
-    position: relative;
-    top: 20px;
-    height: 350px;
-    width: auto;
+  right: 100px;
+  z-index: 100;
+  position: relative;
+  top: 20px;
+  height: 350px;
+  width: auto;
 }
 
 .button-signup2 {
-    background-color: #f72210;
-    width: 95%;
-    font-weight: 600;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 17px;
-    cursor: pointer;
+  background-color: #f72210;
+  width: 95%;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 .button-signup2 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .button-signup2 a:hover {
-    color: white;
+  color: white;
 }
 
 .newsletter-bg {
-    background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.subiscribe-light {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.button-signup2 {
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
-    .login {
-        padding-right: 10px;
-    }
-    .logo {
-        height: 28px;
-    }
-    .md-div-center {
-        width: 50%;
-        margin: auto;
-    }
+  .login {
+    padding-right: 10px;
+  }
+  .logo {
+    height: 28px;
+  }
+  .md-div-center {
+    width: 50%;
+    margin: auto;
+  }
+  .subiscribe-light {
+    height: 550px;
+  }
+  .button-signup2 {
+    width: 45%;
+    height: 90%;
+    margin: 0;
+  }
+  .input-buttom {
+    width: 45%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .top-part-nav {
-        height: 80px;
-    }
-    .logo {
-        height: 60px;
-        margin-bottom: 30px;
-    }
-    .bottom-header {
-        font-size: 12px;
-    }
-    .bottom-upper-list li a {
-        color: black;
-    }
-    .header-bottom-links li a {
-        color: #555;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    .bottom-upper-list li a:hover {
-        color: #f72210;
-    }
-    .header-bottom-links li {
-        font-weight: bold;
-    }
-    .header-bottom-links li a:hover {
-        color: #f72210;
-    }
-    .free-signup {
-        width: 95%;
-    }
-    .free-signup .button-signup {
-        margin-left: 15px;
-    }
-    .subiscribe-light {
-        height: 500px;
-    }
+  .top-part-nav {
+    height: 80px;
+  }
+  .logo {
+    height: 60px;
+    margin-bottom: 30px;
+  }
+  .bottom-header {
+    font-size: 12px;
+  }
+  .bottom-upper-list li a {
+    color: black;
+  }
+  .header-bottom-links li a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .bottom-upper-list li a:hover {
+    color: #f72210;
+  }
+  .header-bottom-links li {
+    font-weight: bold;
+  }
+  .header-bottom-links li a:hover {
+    color: #f72210;
+  }
+  .free-signup {
+    width: 95%;
+  }
+  .free-signup .button-signup {
+    margin-left: 15px;
+  }
+  .subiscribe-light {
+    height: 500px;
+  }
+  .button-signup2 {
+    width: 80%;
+    height: 90%;
+  }
+  .input-buttom {
+    width: 80%;
+  }
 }
-
-
 /*# sourceMappingURL=main.css.map */

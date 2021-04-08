@@ -267,6 +267,15 @@ footer a:hover {
     background-position-x: center;
 }
 
+.subiscribe-light {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.button-signup2{
+    margin:0 auto;
+}
+
 @media only screen and (min-width: 768px) {
     .login {
         padding-right: 10px;
@@ -277,6 +286,18 @@ footer a:hover {
     .md-div-center {
         width: 50%;
         margin: auto;
+    }
+    .subiscribe-light {
+        height: 550px;
+    }
+    .button-signup2{
+        width:45%;
+        height:90%;
+        margin:0;
+    }
+    .input-buttom{
+        width:45%;
+
     }
 }
 
@@ -316,5 +337,13 @@ footer a:hover {
     }
     .subiscribe-light {
         height: 500px;
+    }
+    .button-signup2{
+        width:80%;
+        height:90%;
+    }
+    .input-buttom{
+        width:80%;
+
     }
 }
