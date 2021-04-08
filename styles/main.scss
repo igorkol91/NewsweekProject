@@ -90,7 +90,7 @@
 }
 
 footer {
-  margin-top: 400px;
+  margin-top: 100px;
 
   li {
     margin-left: 15px;
@@ -100,6 +100,11 @@ footer {
     text-decoration: none;
     color: grey;
   }
+}
+
+.bottom-footer-list1 li,
+.bottom-footer-list2 li {
+  font-size: 14px;
 }
 
 .button-signup {
@@ -114,6 +119,21 @@ footer {
 
   a {
     text-decoration: none;
+  }
+}
+
+.button-signup2 {
+  background-color: rgb(247, 34, 16);
+  width: 95%;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  cursor: pointer;
+
+  a {
+    text-decoration: none;
+    color: white;
   }
 }
 
@@ -136,12 +156,16 @@ footer a:hover {
     color: #555;
     font-weight: bolder;
   }
+}
 
-  p a:hover {
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: rgb(247, 34, 16);
-  }
+.button-signup2 a:hover {
+  color: white;
+}
+
+.top-debate-div p a:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(247, 34, 16);
 }
 
 .free-signup {
@@ -240,6 +264,51 @@ footer a:hover {
   margin: 0 auto;
 }
 
+.section-title-a3 {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.trump-img-top {
+  position: relative;
+  left: 100px;
+  height: 350px;
+  width: auto;
+}
+
+.trump-img-buttom {
+  right: 100px;
+  z-index: 100;
+  position: relative;
+  top: 20px;
+  height: 350px;
+  width: auto;
+}
+
+.newsletter-bg {
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.subiscribe-light {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-div {
+  height: 200px;
+}
+
+.input-buttom {
+  width: 50%;
+}
+
 @media only screen and (min-width: 768px) {
   .login {
     padding-right: 10px;
@@ -247,6 +316,25 @@ footer a:hover {
 
   .logo {
     height: 28px;
+  }
+
+  .md-div-center {
+    width: 50%;
+    margin: auto;
+  }
+
+  .subiscribe-light {
+    height: 550px;
+  }
+
+  .button-signup2 {
+    width: 45%;
+    height: 90%;
+    margin: 0;
+  }
+
+  .input-buttom {
+    width: 45%;
   }
 }
 
@@ -292,5 +380,18 @@ footer a:hover {
     .button-signup {
       margin-left: 15px;
     }
+  }
+
+  .subiscribe-light {
+    height: 500px;
+  }
+
+  .button-signup2 {
+    width: 80%;
+    height: 90%;
+  }
+
+  .input-buttom {
+    width: 80%;
   }
 }

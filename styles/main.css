@@ -62,17 +62,17 @@
   font-weight: bold;
 }
 
-.header-input::placeholder {
-  color: grey;
-  font-weight: bold;
-}
-
 .header-input::-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
 
 .header-input:-ms-input-placeholder {
+  color: grey;
+  font-weight: bold;
+}
+
+.header-input::placeholder {
   color: grey;
   font-weight: bold;
 }
@@ -106,7 +106,7 @@
 }
 
 footer {
-  margin-top: 400px;
+  margin-top: 100px;
 }
 
 footer li {
@@ -118,12 +118,69 @@ footer a {
   color: grey;
 }
 
+.bottom-footer-list1 li,
+.bottom-footer-list2 li {
+  font-size: 14px;
+}
+
+.button-signup {
+  background-color: #f72210;
+  width: 90%;
+  margin: 10px auto;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button-signup a {
+  text-decoration: none;
+}
+
+.button-signup2 {
+  background-color: #f72210;
+  width: 95%;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button-signup2 a {
+  text-decoration: none;
+  color: white;
+}
+
 footer a:hover {
   color: black;
 }
 
 .bottom-footer-div {
   margin-top: 25px;
+}
+
+.top-debate-div p {
+  font-size: 14px;
+  color: #555;
+}
+
+.top-debate-div p a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bolder;
+}
+
+.button-signup2 a:hover {
+  color: white;
+}
+
+.top-debate-div p a:hover {
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #f72210;
+  text-decoration-color: #f72210;
 }
 
 .free-signup {
@@ -141,27 +198,6 @@ footer a:hover {
   width: 90%;
   margin-top: 10px;
   margin-left: 15px;
-}
-
-.free-signup .button-signup {
-  background-color: #f72210;
-  width: 90%;
-  margin: 10px auto;
-  font-weight: 600;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 17px;
-  cursor: pointer;
-}
-
-.top-debate-div p a {
-  text-decoration: none;
-  color: #555;
-  font-weight: bolder;
-}
-
-.free-signup .button-signup a {
-  text-decoration: none;
 }
 
 .signup-top {
@@ -211,18 +247,6 @@ footer a:hover {
   color: rgba(85, 85, 85, 0.651);
 }
 
-.top-debate-div p {
-  font-size: 14px;
-  color: #555;
-}
-
-.top-debate-div p a:hover {
-  color: black;
-  text-decoration: underline;
-  -webkit-text-decoration-color: #f72210;
-  text-decoration-color: #f72210;
-}
-
 .opinion-div h5 {
   font-size: 17px;
   line-height: 19px;
@@ -250,9 +274,58 @@ footer a:hover {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  margin: 0 auto;
   position: relative;
   top: 15px;
+  margin: 0 auto;
+}
+
+.section-title-a3 {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.trump-img-top {
+  position: relative;
+  left: 100px;
+  height: 350px;
+  width: auto;
+}
+
+.trump-img-buttom {
+  right: 100px;
+  z-index: 100;
+  position: relative;
+  top: 20px;
+  height: 350px;
+  width: auto;
+}
+
+.newsletter-bg {
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.subiscribe-light {
+  height: 600px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.empty-div {
+  height: 200px;
+}
+
+.input-buttom {
+  width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -262,6 +335,25 @@ footer a:hover {
 
   .logo {
     height: 28px;
+  }
+
+  .md-div-center {
+    width: 50%;
+    margin: auto;
+  }
+
+  .subiscribe-light {
+    height: 550px;
+  }
+
+  .button-signup2 {
+    width: 45%;
+    height: 90%;
+    margin: 0;
+  }
+
+  .input-buttom {
+    width: 45%;
   }
 }
 
@@ -307,6 +399,19 @@ footer a:hover {
 
   .free-signup .button-signup {
     margin-left: 15px;
+  }
+
+  .subiscribe-light {
+    height: 500px;
+  }
+
+  .button-signup2 {
+    width: 80%;
+    height: 90%;
+  }
+
+  .input-buttom {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=main.css.map */
