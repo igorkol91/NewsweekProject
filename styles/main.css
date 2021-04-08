@@ -62,12 +62,12 @@
   font-weight: bold;
 }
 
-.header-input:-ms-input-placeholder {
+.header-input::-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
 
-.header-input::-ms-input-placeholder {
+.header-input:-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
