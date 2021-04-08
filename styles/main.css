@@ -189,7 +189,6 @@ footer a:hover {
   width: 100%;
   margin-top: 10px;
   margin-left: 10px;
-  display: -ms-flexbox;
   display: flex;
 }
 
