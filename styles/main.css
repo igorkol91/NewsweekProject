@@ -57,17 +57,17 @@
   border: none;
 }
 
-.header-input::-ms-input-placeholder {
-  color: grey;
-  font-weight: bold;
-}
-
 .header-input::-webkit-input-placeholder {
   color: grey;
   font-weight: bold;
 }
 
 .header-input:-ms-input-placeholder {
+  color: grey;
+  font-weight: bold;
+}
+
+.header-input::-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
@@ -106,7 +106,7 @@
 }
 
 footer {
-  margin-top: 400px;
+  margin-top: 100px;
 }
 
 footer li {
@@ -116,6 +116,10 @@ footer li {
 footer a {
   text-decoration: none;
   color: grey;
+}
+
+.bottom-footer-list1 li, .bottom-footer-list2 li {
+  font-size: 14px;
 }
 
 .button-signup {
@@ -131,6 +135,16 @@ footer a {
 
 .button-signup a {
   text-decoration: none;
+}
+
+.button-signup2 {
+  background-color: #f72210;
+  width: 95%;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 .button-signup2 a {
@@ -189,6 +203,8 @@ footer a:hover {
   width: 100%;
   margin-top: 10px;
   margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -214,7 +230,7 @@ footer a:hover {
   cursor: pointer;
   color: black;
   -webkit-text-decoration-color: #f72210;
-  text-decoration-color: #f72210;
+          text-decoration-color: #f72210;
 }
 
 .section-title-a2 {
@@ -263,6 +279,17 @@ footer a:hover {
   margin: 0 auto;
 }
 
+.section-title-a3 {
+  text-decoration: none;
+  color: black;
+}
+
+.section-title-a3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
 .trump-img-top {
   position: relative;
   left: 100px;
@@ -279,17 +306,6 @@ footer a:hover {
   width: auto;
 }
 
-.button-signup2 {
-  background-color: #f72210;
-  width: 95%;
-  font-weight: 600;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 17px;
-  cursor: pointer;
-  margin: 0 auto;
-}
-
 .newsletter-bg {
   background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
   background-repeat: no-repeat;
@@ -300,6 +316,7 @@ footer a:hover {
 .subiscribe-light {
   height: 600px;
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
