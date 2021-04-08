@@ -48,13 +48,18 @@
   height: 30px;
   font-size: 15px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-input {
   background: transparent;
   border: none;
+}
+
+.header-input::-ms-input-placeholder {
+  color: grey;
+  font-weight: bold;
 }
 
 .header-input::-webkit-input-placeholder {
@@ -63,11 +68,6 @@
 }
 
 .header-input:-ms-input-placeholder {
-  color: grey;
-  font-weight: bold;
-}
-
-.header-input::-ms-input-placeholder {
   color: grey;
   font-weight: bold;
 }
@@ -118,7 +118,8 @@ footer a {
   color: grey;
 }
 
-.bottom-footer-list1 li, .bottom-footer-list2 li {
+.bottom-footer-list1 li,
+.bottom-footer-list2 li {
   font-size: 14px;
 }
 
@@ -179,7 +180,7 @@ footer a:hover {
   color: black;
   text-decoration: underline;
   -webkit-text-decoration-color: #f72210;
-  text-decoration-color: #f72210;
+          text-decoration-color: #f72210;
 }
 
 .free-signup {
@@ -203,7 +204,6 @@ footer a:hover {
   width: 100%;
   margin-top: 10px;
   margin-left: 10px;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
@@ -230,7 +230,7 @@ footer a:hover {
   cursor: pointer;
   color: black;
   -webkit-text-decoration-color: #f72210;
-          text-decoration-color: #f72210;
+  text-decoration-color: #f72210;
 }
 
 .section-title-a2 {
@@ -282,9 +282,6 @@ footer a:hover {
 .section-title-a3 {
   text-decoration: none;
   color: black;
-}
-
-.section-title-a3 {
   font-size: 18px;
   font-weight: 500;
   line-height: 22px;
@@ -315,7 +312,6 @@ footer a:hover {
 
 .subiscribe-light {
   height: 600px;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
