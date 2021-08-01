@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) 
-
+ 
 # Responsive Design Newsweek Project
 
 > This project shows different ways that can help us make our website reponsive to all the screen sizes by using Bootstrap.
